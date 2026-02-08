@@ -3,8 +3,7 @@
         {
             "id": 1,
             "text": "Купить продукты в магазине",
-            "is_done": false,
-            "category_id": 2
+            "is_done": false
         },
         {
             "id": 2,
@@ -21,8 +20,7 @@
         {
             "id": 4,
             "text": "Оплатить коммунальные услуги",
-            "is_done": false,
-            "category_id": 2
+            "is_done": false
         },
         {
             "id": 5,
