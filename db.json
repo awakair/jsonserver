@@ -1,70 +1,72 @@
 {
     "todos": [
         {
-            "id": "1",
+            "id": 1,
             "text": "Купить продукты в магазине",
             "is_done": false,
-            "category_id": "2"
+            "category_id": 2
         },
         {
-            "id": "2",
+            "id": 2,
             "text": "Позвонить врачу и записаться на прием",
-            "is_done": false
+            "is_done": false,
+            "category_id": 3
         },
         {
-            "id": "3",
+            "id": 3,
             "text": "Закончить отчет по проекту",
             "is_done": true,
-            "category_id": "1"
+            "category_id": 1
         },
         {
-            "id": "4",
+            "id": 4,
             "text": "Оплатить коммунальные услуги",
             "is_done": false,
-            "category_id": "2"
+            "category_id": 2
         },
         {
-            "id": "5",
+            "id": 5,
             "text": "Прочитать 30 страниц книги",
             "is_done": true,
-            "category_id": "4"
+            "category_id": 4
         },
         {
-            "id": "6",
+            "id": 6,
             "text": "Сделать утреннюю пробежку",
-            "is_done": true
+            "is_done": true,
+            "category_id": 3
         },
         {
-            "id": "7",
+            "id": 7,
             "text": "Отправить email клиенту",
             "is_done": false,
-            "category_id": "1"
+            "category_id": 1
         },
         {
-            "id": "8",
+            "id": 8,
             "text": "Подготовить презентацию для встречи",
             "is_done": false,
-            "category_id": "1"
+            "category_id": 1
         }
     ],
     "categories": [
         {
-            "id": "1",
+            "id": 1,
             "name": "Работа",
             "color": "#3498db"
         },
         {
-            "id": "2",
+            "id": 2,
             "name": "Дом",
             "color": "#27ae60"
         },
         {
-            "id": "3",
+            "id": 3,
             "name": "Здоровье",
             "color": "#e74c3c"
         },
         {
-            "id": "4",
+            "id": 4,
             "name": "Личное",
             "color": "#9b59b6"
         }
