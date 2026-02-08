@@ -3,48 +3,68 @@
         {
             "id": 1,
             "text": "Купить продукты в магазине",
-            "is_done": false
+            "is_done": false,
+            "tags": []
         },
         {
             "id": 2,
             "text": "Позвонить врачу и записаться на прием",
             "is_done": false,
-            "category_id": 3
+            "category_id": 3,
+            "tags": [
+                { "id": 1, "name": "Срочно" }
+            ]
         },
         {
             "id": 3,
             "text": "Закончить отчет по проекту",
             "is_done": true,
-            "category_id": 1
+            "category_id": 1,
+            "tags": [
+                { "id": 2, "name": "Важно" },
+                { "id": 4, "name": "Долгосрочно" }
+            ]
         },
         {
             "id": 4,
             "text": "Оплатить коммунальные услуги",
-            "is_done": false
+            "is_done": false,
+            "tags": []
         },
         {
             "id": 5,
             "text": "Прочитать 30 страниц книги",
             "is_done": true,
-            "category_id": 4
+            "category_id": 4,
+            "tags": []
         },
         {
             "id": 6,
             "text": "Сделать утреннюю пробежку",
             "is_done": true,
-            "category_id": 3
+            "category_id": 3,
+            "tags": []
         },
         {
             "id": 7,
             "text": "Отправить email клиенту",
             "is_done": false,
-            "category_id": 1
+            "category_id": 1,
+            "tags": [
+                { "id": 1, "name": "Срочно" },
+                { "id": 2, "name": "Важно" }
+            ]
         },
         {
             "id": 8,
             "text": "Подготовить презентацию для встречи",
             "is_done": false,
-            "category_id": 1
+            "category_id": 1,
+            "tags": [
+                { "id": 1, "name": "Срочно" },
+                { "id": 2, "name": "Важно" },
+                { "id": 4, "name": "Долгосрочно" }
+            ]
         }
     ],
     "categories": [
@@ -85,48 +105,6 @@
         {
             "id": 4,
             "name": "Долгосрочно"
-        }
-    ],
-    "task_tags": [
-        {
-            "id": 1,
-            "task_id": 2,
-            "tag_id": 1
-        },
-        {
-            "id": 2,
-            "task_id": 3,
-            "tag_id": 2
-        },
-        {
-            "id": 3,
-            "task_id": 3,
-            "tag_id": 4
-        },
-        {
-            "id": 4,
-            "task_id": 7,
-            "tag_id": 1
-        },
-        {
-            "id": 5,
-            "task_id": 7,
-            "tag_id": 2
-        },
-        {
-            "id": 6,
-            "task_id": 8,
-            "tag_id": 1
-        },
-        {
-            "id": 7,
-            "task_id": 8,
-            "tag_id": 2
-        },
-        {
-            "id": 8,
-            "task_id": 8,
-            "tag_id": 4
         }
     ],
     "profile": {
