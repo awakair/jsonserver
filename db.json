@@ -69,6 +69,66 @@
             "color": "#9b59b6"
         }
     ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Срочно"
+        },
+        {
+            "id": 2,
+            "name": "Важно"
+        },
+        {
+            "id": 3,
+            "name": "Легко"
+        },
+        {
+            "id": 4,
+            "name": "Долгосрочно"
+        }
+    ],
+    "task_tags": [
+        {
+            "id": 1,
+            "task_id": 2,
+            "tag_id": 1
+        },
+        {
+            "id": 2,
+            "task_id": 3,
+            "tag_id": 2
+        },
+        {
+            "id": 3,
+            "task_id": 3,
+            "tag_id": 4
+        },
+        {
+            "id": 4,
+            "task_id": 7,
+            "tag_id": 1
+        },
+        {
+            "id": 5,
+            "task_id": 7,
+            "tag_id": 2
+        },
+        {
+            "id": 6,
+            "task_id": 8,
+            "tag_id": 1
+        },
+        {
+            "id": 7,
+            "task_id": 8,
+            "tag_id": 2
+        },
+        {
+            "id": 8,
+            "task_id": 8,
+            "tag_id": 4
+        }
+    ],
     "profile": {
         "name": "Дмитрий"
     }
