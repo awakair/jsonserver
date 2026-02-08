@@ -41,6 +41,28 @@
             "is_done": false
         }
     ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Работа",
+            "color": "#3498db"
+        },
+        {
+            "id": 2,
+            "name": "Дом",
+            "color": "#27ae60"
+        },
+        {
+            "id": 3,
+            "name": "Здоровье",
+            "color": "#e74c3c"
+        },
+        {
+            "id": 4,
+            "name": "Личное",
+            "color": "#9b59b6"
+        }
+    ],
     "profile": {
         "name": "Дмитрий"
     }
